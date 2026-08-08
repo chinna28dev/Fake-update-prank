@@ -69,7 +69,7 @@
   function onKeyDown(e) {
     typed = (typed + e.key.toLowerCase()).slice(-4);
     if (typed === "exit") dismiss();
-  }5
+  }
   document.addEventListener("keydown", onKeyDown);
 
   function dismiss() {
