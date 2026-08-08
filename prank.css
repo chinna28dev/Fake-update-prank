@@ -1,0 +1,87 @@
+#fup-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 2147483647;
+  background: #0a5ecb;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, sans-serif;
+  animation: fup-fade-in 0.4s ease;
+}
+
+@keyframes fup-fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.fup-logo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 6px;
+  width: 64px;
+  height: 64px;
+  margin-bottom: 32px;
+  animation: fup-spin 2.2s linear infinite;
+}
+.fup-logo span {
+  border-radius: 2px;
+}
+.fup-logo span:nth-child(1) { background: #ff7d7d; }
+.fup-logo span:nth-child(2) { background: #7dff9e; }
+.fup-logo span:nth-child(3) { background: #7dbcff; }
+.fup-logo span:nth-child(4) { background: #fff37d; }
+
+@keyframes fup-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.fup-title {
+  font-size: 28px;
+  font-weight: 300;
+  margin-bottom: 12px;
+  letter-spacing: 0.3px;
+}
+
+.fup-subtitle {
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 28px;
+  opacity: 0.9;
+}
+
+.fup-bar-track {
+  width: 320px;
+  max-width: 70vw;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 2px;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+.fup-bar-fill {
+  height: 100%;
+  width: 0%;
+  background: #fff;
+  transition: width 0.25s linear;
+}
+
+.fup-warning {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  opacity: 0.95;
+}
+
+#fup-exit-zone {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  cursor: default;
+}

@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Fake Update Prank",
+  "version": "1.0",
+  "description": "Click the icon to overlay a fake full-screen system update on the current tab. Great harmless prank on a friend's laptop.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_title": "Trigger Fake Update Prank"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
