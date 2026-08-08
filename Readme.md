@@ -21,30 +21,41 @@ Since this isn't on the Chrome Web Store, you load it manually in **Developer mo
 
 ### Step 1 — Open Extensions and turn on Developer mode
 
-Go to `chrome://extensions` in your address bar, then toggle **Developer mode** on in the top-right corner.
+Open chrome click on puzzle symbol (Extension)
 
-![Enable developer mode](images/step1-developer-mode.png)
+(images/image1.png)
 
+### step 1.1 - click on manage extensions
+
+(images/image2.png)
+
+### step 1.12 - developermode
+ 
+ Toggle **Developer mode** on in the top-right corner.
+
+![Enable developer mode]
+
+(images/image3.png)
 
 ### Step 2 — Click "Load unpacked"
 
 Once Developer mode is on, three new buttons appear. Click **Load unpacked**.
 
-![Click Load unpacked](images/step2-load-unpacked.png)
+![Click Load unpacked](images/image4.png)
 
 
 ### Step 3 — Select the `fake-update-prank` folder
 
 A folder picker opens. Navigate to wherever you unzipped this project, select the **fake-update-prank** folder itself (not a file inside it), then click **Select Folder**.
 
-![Select the fake-update-prank folder](images/step3-select-folder.png)
+![Select the fake-update-prank folder](images/image5.png)
 
 
 ### Step 4 — Trigger the prank
 
 The icon appears in your toolbar. Click it once on any tab — the fake update screen takes over immediately.
 
-![Click the icon to trigger the prank](images/step4-trigger-prank.png)
+![Click the icon to trigger the prank](images/image6.png)
 
 ---
 
@@ -53,7 +64,7 @@ The icon appears in your toolbar. Click it once on any tab — the fake update s
 
 There's no visible close button on purpose — that's the joke. Two secret ways out:
 
-![How to exit](images/step5-how-to-exit.png)
+![How to exit](images/image7.png)
 
 | Method | How |
 |---|---|
