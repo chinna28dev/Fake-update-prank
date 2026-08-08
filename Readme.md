@@ -23,19 +23,17 @@ Since this isn't on the Chrome Web Store, you load it manually in **Developer mo
 
 Open chrome click on puzzle symbol (Extension)
 
-(images/image1.png)
+![Extensions icon](images/image1.png)
 
 ### step 1.1 - click on manage extensions
 
-(images/image2.png)
+![Manage extensions](images/image2.png)
 
 ### step 1.12 - developermode
  
  Toggle **Developer mode** on in the top-right corner.
 
-![Enable developer mode]
-
-(images/image3.png)
+![Enable developer mode](images/image3.png)
 
 ### Step 2 — Click "Load unpacked"
 
